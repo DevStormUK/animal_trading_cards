@@ -45,14 +45,14 @@ li>span {
 /* 6) Uses spacing between animal’s name, image, and information. */
 /* I've used different units like rem and px just to show that you COULD use different units. */
 .name {
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
 }
 #image {
   margin-bottom: 12px;
 }
 #animal-list {
-  margin-top: 2em;
-  padding-left: 1em;;
+  margin-top: 1em;
+  padding-left: 0em;;
 }
 #animal-list>li {
   padding: 4px 0;
@@ -63,4 +63,8 @@ li>span {
 body>div {
   padding: 0 12px;
   margin: 12px;
+}
+
+.info {
+  padding: 6px 12px;
 }
